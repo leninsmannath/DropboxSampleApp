@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C317621236E721F4B79A90C /* Pods_DropboxSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4390E282075E54546E8F3072 /* Pods_DropboxSampleApp.framework */; };
+		6B4BB9842451F16A00752DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4BB9832451F16A00752DBB /* AppDelegate.swift */; };
+		6B4BB9862451F16A00752DBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4BB9852451F16A00752DBB /* SceneDelegate.swift */; };
+		6B4BB9882451F16A00752DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4BB9872451F16A00752DBB /* ViewController.swift */; };
+		6B4BB98B2451F16A00752DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4BB9892451F16A00752DBB /* Main.storyboard */; };
+		6B4BB98D2451F16C00752DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4BB98C2451F16C00752DBB /* Assets.xcassets */; };
+		6B4BB9902451F16C00752DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B4BB98E2451F16C00752DBB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4390E282075E54546E8F3072 /* Pods_DropboxSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropboxSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4BB9802451F16A00752DBB /* DropboxSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4BB9832451F16A00752DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B4BB9852451F16A00752DBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B4BB9872451F16A00752DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B4BB98A2451F16A00752DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B4BB98C2451F16C00752DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B4BB98F2451F16C00752DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B4BB9912451F16C00752DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9683C2766BB4B9F4429C0908 /* Pods-DropboxSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxSampleApp.release.xcconfig"; path = "Target Support Files/Pods-DropboxSampleApp/Pods-DropboxSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		B99F104A31EEAAED85235870 /* Pods-DropboxSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-DropboxSampleApp/Pods-DropboxSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4BB97D2451F16A00752DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C317621236E721F4B79A90C /* Pods_DropboxSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8E86BBF0E3A0187660E2B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B99F104A31EEAAED85235870 /* Pods-DropboxSampleApp.debug.xcconfig */,
+				9683C2766BB4B9F4429C0908 /* Pods-DropboxSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B4BB9772451F16A00752DBB = {
+			isa = PBXGroup;
+			children = (
+				6B4BB9822451F16A00752DBB /* DropboxSampleApp */,
+				6B4BB9812451F16A00752DBB /* Products */,
+				1B8E86BBF0E3A0187660E2B3 /* Pods */,
+				997AFB473CEA3F2E5818DB30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4BB9812451F16A00752DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4BB9802451F16A00752DBB /* DropboxSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4BB9822451F16A00752DBB /* DropboxSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				6B4BB9832451F16A00752DBB /* AppDelegate.swift */,
+				6B4BB9852451F16A00752DBB /* SceneDelegate.swift */,
+				6B4BB9872451F16A00752DBB /* ViewController.swift */,
+				6B4BB9892451F16A00752DBB /* Main.storyboard */,
+				6B4BB98C2451F16C00752DBB /* Assets.xcassets */,
+				6B4BB98E2451F16C00752DBB /* LaunchScreen.storyboard */,
+				6B4BB9912451F16C00752DBB /* Info.plist */,
+			);
+			path = DropboxSampleApp;
+			sourceTree = "<group>";
+		};
+		997AFB473CEA3F2E5818DB30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4390E282075E54546E8F3072 /* Pods_DropboxSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4BB97F2451F16A00752DBB /* DropboxSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4BB9942451F16C00752DBB /* Build configuration list for PBXNativeTarget "DropboxSampleApp" */;
+			buildPhases = (
+				E1C4C824BE088026C037FEAE /* [CP] Check Pods Manifest.lock */,
+				6B4BB97C2451F16A00752DBB /* Sources */,
+				6B4BB97D2451F16A00752DBB /* Frameworks */,
+				6B4BB97E2451F16A00752DBB /* Resources */,
+				73133BAFA3DBAA663D8F9C0B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropboxSampleApp;
+			productName = DropboxSampleApp;
+			productReference = 6B4BB9802451F16A00752DBB /* DropboxSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4BB9782451F16A00752DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = trsoft;
+				TargetAttributes = {
+					6B4BB97F2451F16A00752DBB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 6B4BB97B2451F16A00752DBB /* Build configuration list for PBXProject "DropboxSampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B4BB9772451F16A00752DBB;
+			productRefGroup = 6B4BB9812451F16A00752DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4BB97F2451F16A00752DBB /* DropboxSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4BB97E2451F16A00752DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4BB9902451F16C00752DBB /* LaunchScreen.storyboard in Resources */,
+				6B4BB98D2451F16C00752DBB /* Assets.xcassets in Resources */,
+				6B4BB98B2451F16A00752DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73133BAFA3DBAA663D8F9C0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropboxSampleApp/Pods-DropboxSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropboxSampleApp/Pods-DropboxSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropboxSampleApp/Pods-DropboxSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C4C824BE088026C037FEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropboxSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4BB97C2451F16A00752DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4BB9882451F16A00752DBB /* ViewController.swift in Sources */,
+				6B4BB9842451F16A00752DBB /* AppDelegate.swift in Sources */,
+				6B4BB9862451F16A00752DBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B4BB9892451F16A00752DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4BB98A2451F16A00752DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B4BB98E2451F16C00752DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4BB98F2451F16C00752DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4BB9922451F16C00752DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B4BB9932451F16C00752DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4BB9952451F16C00752DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99F104A31EEAAED85235870 /* Pods-DropboxSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7F4GR4F5Y;
+				INFOPLIST_FILE = DropboxSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropboxsampleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B4BB9962451F16C00752DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9683C2766BB4B9F4429C0908 /* Pods-DropboxSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7F4GR4F5Y;
+				INFOPLIST_FILE = DropboxSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dropboxsampleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4BB97B2451F16A00752DBB /* Build configuration list for PBXProject "DropboxSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4BB9922451F16C00752DBB /* Debug */,
+				6B4BB9932451F16C00752DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4BB9942451F16C00752DBB /* Build configuration list for PBXNativeTarget "DropboxSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4BB9952451F16C00752DBB /* Debug */,
+				6B4BB9962451F16C00752DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4BB9782451F16A00752DBB /* Project object */;
+}
