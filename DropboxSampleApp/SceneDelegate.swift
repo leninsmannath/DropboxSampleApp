@@ -6,6 +6,8 @@
  
 
 import UIKit
+import SwiftyDropbox
+
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -45,6 +47,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+    }
+    func scene(_ scene: UIScene, openURLContexts URLContexts: Set<UIOpenURLContext>) {
+        if let url = URLContexts.first?.url {
+            print(url)
+            
+            if let authResult = DropboxClientsManager.handleRedirectURL(url) {
+                switch authResult {
+                case .success:
+                    print("Success! User is logged into Dropbox.")
+                case .cancel:
+                    print("Authorization flow was manually canceled by user!")
+                case .error(_, let description):
+                    print("Error: \(description)")
+                }
+            }
+        }
     }
 
 
